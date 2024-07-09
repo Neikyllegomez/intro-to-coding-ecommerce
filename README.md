@@ -7,3 +7,9 @@ To run the project.
  5. This will run the project and display a link for localhost.
  6. Navigate to the link on your browser.
    
+**RUNNING THE BACKEND PROJECT **
+ 1. Go to terminal.
+ 2. Navigate to project directory then.
+ 3. cd into be-shopping-cart
+ 4. cd into backend_django
+ 5. 
