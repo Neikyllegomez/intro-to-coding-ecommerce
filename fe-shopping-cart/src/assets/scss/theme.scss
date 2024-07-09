@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.home-hero-area {
+    background: url('../images/slider-bg.jpg') center center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav .container {
+    background: transparent;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    p {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:  #f7444e;
+}
+
+.btn-shop-now {
+    background-color: #f7444e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
